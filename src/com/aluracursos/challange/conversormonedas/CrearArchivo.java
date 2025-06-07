@@ -12,7 +12,7 @@ import java.io.IOException;
 import java.util.List;
 
 public class CrearArchivo {
-    public static void crearArchivo(List<com.aluracursos.challange.conversormonedas.Monedas> historial) throws IOException {
+    public static void crearArchivo(List<Monedas> historial) throws IOException {
         Gson gson = (new GsonBuilder()).setPrettyPrinting().create();
         String json = gson.toJson(historial);
         FileWriter archivo = new FileWriter("historial.json");

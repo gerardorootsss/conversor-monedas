@@ -61,7 +61,7 @@ public class Principal {
                             CrearArchivo.crearArchivo(historial);
                             System.out.println("Historial de consultas: \n" + historial);
                         } catch (IOException e) {
-                            System.out.println("Error al guardar o leer el historial: " + e.getMessage());
+                            System.out.println("Error al guardar o leer el historial: ");
                         }
                     }
                     break;
