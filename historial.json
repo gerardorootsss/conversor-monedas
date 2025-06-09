@@ -1,10 +1,10 @@
 [
   {
     "result": "success",
-    "base_code": "USD",
-    "conversion_rate": 0.8769,
-    "cantidad": 2500.0,
-    "target_code": "EUR",
-    "cantidadConvertida": 2192.25
+    "base_code": "MXN",
+    "conversion_rate": 48.6889,
+    "cantidad": 45000.0,
+    "target_code": "CLP",
+    "cantidadConvertida": 2191000.5
   }
 ]
