@@ -27,7 +27,7 @@ cd conversor-monedas-java
 ```
 # 3. Ejecutar el programa
 ```bash
-* java -cp bin Main
+* java -cp bin Principal
 ```
 Asegúrate de que la clase principal se llama Principal.java y contiene el método:
 ```java
@@ -68,7 +68,7 @@ Endpoint usado: https://v6.exchangerate-api.com/v6/YOUR_API_KEY/pair/(base_code)
 conversor-monedas/
 │
 ├── src/
-│   ├── Main.java
+│   ├── Principal.java
 │   ├── Conversor.java
 │   ├── ConvertirMoneda.java
 │   ├── ConexionApi.java
