@@ -9,10 +9,19 @@ import java.text.NumberFormat;
 import java.util.Locale;
 
 public class Formatos {
-    public static String formatearMoneda(double cantidadConvertida) {
-        NumberFormat formato = NumberFormat.getCurrencyInstance(Locale.US);
-        formato.setMinimumFractionDigits(2);
-        formato.setMaximumFractionDigits(2);
+    // Formatea como moneda según el Locale y decimales deseados
+    public static String formatearMoneda(double cantidadConvertida, Locale locale, int decimales) {
+        NumberFormat formato = NumberFormat.getCurrencyInstance(locale);
+        formato.setMinimumFractionDigits(decimales);
+        formato.setMaximumFractionDigits(decimales);
         return formato.format(cantidadConvertida);
+    }
+
+    // Formatea como número normal según decimales deseados
+    public static String formatearNumero(double cantidad, Locale locale, int decimales) {
+        NumberFormat formato = NumberFormat.getCurrencyInstance(locale);
+        formato.setMinimumFractionDigits(decimales);
+        formato.setMaximumFractionDigits(decimales);
+        return formato.format(cantidad);
     }
 }

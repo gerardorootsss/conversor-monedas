@@ -3,8 +3,8 @@
     "result": "success",
     "base_code": "USD",
     "conversion_rate": 0.8769,
-    "cantidad": 5400.0,
+    "cantidad": 2500.0,
     "target_code": "EUR",
-    "cantidadConvertida": 4735.26
+    "cantidadConvertida": 2192.25
   }
 ]
